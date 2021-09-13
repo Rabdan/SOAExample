@@ -20,6 +20,8 @@ php artisan migrate:fresh --seed
 
 ## landing
 .env
+```bash
 APP_PAGE_COUNT=5 - указать количество желаемых страниц
 ENV_API_URL=http://soa-example-activity - указать путь до activity
+```  
 подключение к БД не нужно.
